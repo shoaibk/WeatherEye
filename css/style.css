@@ -1,0 +1,147 @@
+/*****************************************************************
+Shoaib Khan
+MAD 9014
+
+Note:
+VClouds Weather Icons used for non-commercial purpose:
+Created and copyrighted by VClouds - http://vclouds.deviantart.com/
+******************************************************************/
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+body {
+	text-align: center;
+	font-size: 62.5%;	
+	background-color: #fff;
+	font-family: 'Droid Sans', 'Arial', sans-serif;
+}
+.wrapper {
+	padding: 0 50px;
+}
+p, th, td {
+	text-align: center;
+	color: white;
+	font-size: 0.9rem;
+}
+th {
+	color: #e4e4e4;
+}
+img {
+	display: inline-block;
+}
+.summary-icon {
+	margin: 0 auto 0 -30px;
+}
+.summary {
+	margin-top: -40px;
+}
+.weather-forecast {
+	min-width: 500px;
+	max-width: 800px;
+	margin: 50px auto;
+}
+.weather-data {
+	border-radius: 30px;
+	border: 3px solid #C8C7DD;
+
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top left, #110863 0%, #85D2FF 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top left, #110863 0%, #85D2FF 100%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(top left, #110863 0%, #85D2FF 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #110863), color-stop(1, #85D2FF));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top left, #110863 0%, #85D2FF 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom right, #110863 0%, #85D2FF 100%);
+}
+
+.location, .summary, .current-temp{
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+}
+.current-temp {
+	margin-top: 0;
+}
+.location{
+	margin-top: 0.8rem;
+}
+.location-name {
+	font-size: 2rem;
+}
+
+.location-time {
+	padding-top: 0.5rem;
+}
+.location-city {
+	padding-top: 0.5rem;
+	font-size: 1rem;
+}
+
+.location-time, .current-temp-feelslike {
+	font-size: 1rem;
+}
+.summary-text {
+	font-size: 0.9rem;
+	margin-top: 0.5rem;
+}
+.summary-text-today{
+	font-size: 1rem;
+	margin-top: 1.4rem;
+}
+
+.current-temp-big {
+	font-size: 7rem;
+	/*font-family: 'Josefin Slab', 'Times New Roman', serif;*/
+	font-family: 'Josefin Slab', 'Arial', sans-serif;
+		/*font-family: 'Arial', sans-serif;*/
+		font-weight: lighter;
+
+	/*margin-bottom: -20px;*/
+}
+.current-temp-big-deg {
+	font-size: 7rem;
+	font-family: 'Antic Slab', 'Droid Sans', 'Arial', sans-serif;
+}
+.table-wrap {
+	overflow-x: scroll;
+}
+table {
+	width: 2580px;
+	border-collapse: collapse;
+	margin: 20px 0 5px 0;
+}
+th, td {
+	width: 2rem;
+	border-right: 1px solid rgba(80,80,80,0.3);
+	padding: 0.5rem 0.2rem;
+}
+th {
+	background-color: rgba(200, 200, 200, 0.3);
+}
+td img {
+	width: 4rem;
+	margin-left: -1rem;
+}
+footer {
+	text-align: right;
+	font-size: 0.7rem;
+	color: rgba(200, 200, 200, 0.7);
+	margin-right: 4rem;
+	margin-bottom: 0.5rem;
+}
+footer a{
+	text-decoration: none;
+	color: rgba(200, 200, 200, 1.0);
+}
